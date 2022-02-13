@@ -1,0 +1,77 @@
+p {
+    font-family: 'Jost', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+ul li a {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #262625;
+    font-weight: bold;
+}
+
+ul li a: hover {
+    background: #000;
+    color: #00008b;
+    transition: .5s;
+}
+
+.link {
+    color: blue;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.link: visited {
+    color: red;
+}
+
+#vip {
+    text-decoration: underlined;
+    text-transform: uppercase;
+    color: orange;
+}
+
+.low {
+    padding: 10px 20px;
+    color: red;
+    text-decoration: none;
+}
+
+.low: hover {
+    color: red;
+}
+
+h1 {
+    text-align: center;
+}
+
+.textcols {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.textcols-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 48%;
+    background: #008B8B;
+}
+
+.textcols-item+.textcols-item {
+    margin-left: 4%;
+}
